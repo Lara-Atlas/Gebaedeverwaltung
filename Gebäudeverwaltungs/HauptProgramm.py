@@ -3,7 +3,7 @@ import Gebäudeverwaltung as g
 
 if __name__ == "__main__":
 
-    wohnhaus =g.Wohnhaus("Musterstraße 5",350000,1998,10 ) # type: ignore
+    wohnhaus =g.Wohnhaus("Musterstraße 5",350000,1999,10 ) # type: ignore
     print(wohnhaus.get_daten())
     
     lagerhalle =g.Lagerhalle("Industriestraße 12", 500000, 2005, 1200) # type: ignore
